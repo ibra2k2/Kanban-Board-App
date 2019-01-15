@@ -27,13 +27,8 @@ export class Card extends React.Component {
 		}
 		let sideColor={
 			// position: "absolute",
-			// zIndex: -1,
-			// top: 0,
-			// bottom: 0,
-			// left: 0,
-			// width: 7,
-			backgroundColor: this.props.color,
-			borderLeft: "4px solid red",
+			//backgroundColor: this.props.color,
+			borderLeft: "4px solid" + this.props.color,
 			paddingLeft: "5px",
 		};
 		return(
