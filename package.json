@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/ibra2k2/voting_app#readme",
   "dependencies": {
+    "marked": "^0.6.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },
