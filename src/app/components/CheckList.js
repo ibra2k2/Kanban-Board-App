@@ -7,8 +7,8 @@ export class CheckList extends React.Component {
 			<li key={task.id} className="">
 			   <input type="checkbox" defaultChecked={task.done} />
 			   {task.name}{" "}
-			   <a className="" href="http://google.com">Google</a>{" "}
-			   <a className="" href="http://facebook.com">Facebook</a>
+			   <a className="" href="http://google.com">Google />{" "}
+			   <a className="" href="http://facebook.com">Faceboo />
 			</li>
 		));
 
